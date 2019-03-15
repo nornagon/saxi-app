@@ -1,5 +1,9 @@
+platform:
+  - x64
+  - x86
+
 cache:
- - "%LOCALAPPDATA%\\Yarn"
+  - "%LOCALAPPDATA%\\Yarn"
 
 install:
   - yarn install
