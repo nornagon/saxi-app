@@ -1,0 +1,11 @@
+cache:
+ - "%LOCALAPPDATA%\\Yarn"
+
+install:
+  - yarn install
+
+build_script:
+  - yarn make
+
+artifacts:
+  - path: out\make
