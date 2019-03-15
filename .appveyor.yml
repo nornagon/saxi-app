@@ -1,6 +1,4 @@
-platform:
-  - x64
-  - x86
+platform: x64
 
 cache:
   - "%LOCALAPPDATA%\\Yarn"
@@ -9,7 +7,7 @@ install:
   - yarn install
 
 build_script:
-  - yarn make
+  - yarn make --arch=ia32,x64
 
 artifacts:
   - path: out\make
