@@ -1226,6 +1226,11 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+flatten-svg@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/flatten-svg/-/flatten-svg-0.1.1.tgz#50529731f13697fedb6b56031b5122cd5da82080"
+  integrity sha512-im97HfT/NzUz1mDq1sSpI4kjkGNuahEttQcfqMBSCy7tIW/S+DDWJfpdm1YPmkgiiKnKXDINzR5Khpe4aJSWGg==
+
 flora-colossus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/flora-colossus/-/flora-colossus-1.0.0.tgz#54729c361edecee014dd441679e1a37c1d773a45"
@@ -2655,13 +2660,14 @@ sanitize-filename@^1.6.0:
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
-saxi@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/saxi/-/saxi-0.4.0.tgz#6a5dc46b22bd799e239be57e2d57e1e72ccf257f"
-  integrity sha512-vIZliRL+Fahr3xxlrJyiYEZNswabA0SfRXG5XqGdtQ2DYNjn6jMKQpX531UNy2NxpFeZ7YXqGCFRNN5JiyX0XA==
+saxi@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/saxi/-/saxi-0.4.1.tgz#f2d4b98f311fd6c65fbc6e2c5ef4f62511ac3a36"
+  integrity sha512-+HcqZM4w/548rI8Tno1w4SdFCIM4ghKceEGSP/+71rEsIjrt1nEc3LvpKLPNFC9BXkonZwqyGsiE/roLpFkvaw==
   dependencies:
     cors "^2.8.5"
     express "^4.16.4"
+    flatten-svg "^0.1.1"
     serialport "^7.1.3"
     wake-lock "^0.2.0"
     ws "^6.1.3"
