@@ -2660,10 +2660,10 @@ sanitize-filename@^1.6.0:
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
-saxi@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/saxi/-/saxi-0.6.0.tgz#8e5821f92ff58338d9d2718a2d90e3adb1ccd6bb"
-  integrity sha512-BVvYZI3TWOsHNGf+tjoG2CzC0dctH5mCKBEPPEZmBktiBs3AT2G0aUyDyQeOnRqQJ6Nc68qrNJH63HO5pBJs4Q==
+saxi@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/saxi/-/saxi-0.6.1.tgz#349fbb4c1fef8fc6b39d1cf2f2fa9b3fd4c407dc"
+  integrity sha512-tmaVMFFoZ6uxhVJZsqfBmq4V0xslN1yoRg0/2NQzE4Obpu6+OW8NW2yUaDT7J8L4rqnM71wbr2dESPrBXLbMog==
   dependencies:
     cors "^2.8.5"
     express "^4.16.4"
