@@ -26,31 +26,32 @@ jobs:
       - store_artifacts:
           path: out/make
 
-  build-macos:
-    macos:
-      xcode: 11.6.0
-    steps:
-      - checkout
-
-      - restore_cache:
-          keys:
-            - v1-dependencies-macos-{{ checksum "package.json" }}
-            - v1-dependencies-macos-
-
-      - run: yarn install
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-macos-{{ checksum "package.json" }}
-
-      - run: yarn make
-      - store_artifacts:
-          path: out/make
+# lol nvm, circleci mac is not free
+#  build-macos:
+#    macos:
+#      xcode: 11.6.0
+#    steps:
+#      - checkout
+#
+#      - restore_cache:
+#          keys:
+#            - v1-dependencies-macos-{{ checksum "package.json" }}
+#            - v1-dependencies-macos-
+#
+#      - run: yarn install
+#
+#      - save_cache:
+#          paths:
+#            - node_modules
+#          key: v1-dependencies-macos-{{ checksum "package.json" }}
+#
+#      - run: yarn make
+#      - store_artifacts:
+#          path: out/make
 
 workflows:
   version: 2
   build:
     jobs:
       - build-linux
-      - build-macos
+#      - build-macos
