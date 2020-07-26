@@ -6,6 +6,7 @@ cache:
   - "%LOCALAPPDATA%\\Yarn"
 
 install:
+  - ps: Install-Product node 12
   - yarn install
 
 build_script:
