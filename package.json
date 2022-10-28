@@ -43,7 +43,7 @@
     "saxi": "^0.9.2"
   },
   "devDependencies": {
-    "@electron-forge/cli": "6.0.0-beta.52",
+    "@electron-forge/cli": "6.0.0-beta.69",
     "@electron-forge/maker-deb": "6.0.0-beta.52",
     "@electron-forge/maker-rpm": "6.0.0-beta.52",
     "@electron-forge/maker-squirrel": "6.0.0-beta.52",
