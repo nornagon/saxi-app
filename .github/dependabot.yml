@@ -1,15 +1,2 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "13:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: bl
-    versions:
-    - 4.0.4
-  - dependency-name: saxi
-    versions:
-    - 0.12.0
